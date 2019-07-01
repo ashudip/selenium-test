@@ -3,11 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="NewTest">
         <methods>
           <include name="f"/>
         </methods>
       </class> <!-- NewTest -->
+=======
+      <class name="testpackage.TestNGclass">
+        <methods>
+          <include name="init"/>
+          <include name="f"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testpackage.TestNGclass -->
+>>>>>>> branch 'master' of https://github.com/ashudip/selenium-test.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
